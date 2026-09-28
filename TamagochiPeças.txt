@@ -1,0 +1,20 @@
+| Qtd. | Componente | Modelo recomendado | Função |
+|---:|---|---|---|
+| 1 | Microcontrolador | **Arduino Nano ESP32** | Wi-Fi, lógica, streaming |
+| 1 | Display | **TFT 2,8" ILI9341 320×240 SPI** | Interface gráfica |
+| 1 | Touch | **XPT2046** | Normalmente já integrado ao TFT |
+| 1 | Amplificador/DAC | **MAX98357A I²S** | Áudio digital → alto-falante |
+| 1 | Alto-falante | **4 Ω / 3 W, 40 mm** | Reprodução da voz |
+| 1 | Microfone | **INMP441 MEMS I²S** | Captura de voz |
+| 1 | microSD | 8–32 GB | Cache/logs/sons, opcional |
+| 1 | Slot microSD | Integrado ao TFT ou módulo SPI | Só precisa se o TFT não trouxer |
+| 1 | Alimentação | USB-C 5 V / fonte 5 V ≥2 A | Protótipo inicial |
+| 1 | Chave | SPST liga/desliga | Alimentação |
+| 1 | Botão | Push button | Push-to-talk |
+| 2–3 | Botões | Push buttons | volume/menu/voltar |
+| 1 | Capacitor | 470–1000 µF | Estabilizar alimentação do áudio |
+| 2–4 | Capacitores | 100 nF | Desacoplamento |
+| — | Resistores | 10 kΩ | Pull-up/pull-down quando necessário |
+| — | Headers | 2,54 mm | Conexões |
+| — | Fios | 24–28 AWG | Interconexões |
+| 1 | PCB/perfboard | placa universal | Montagem do protótipo |
